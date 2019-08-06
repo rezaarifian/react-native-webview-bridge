@@ -29,13 +29,14 @@ var {
   Text,
   View,
   ViewPropTypes,
-  WebView,
   requireNativeComponent,
   DeviceEventEmitter,
   NativeModules: {
     WebViewBridgeManager
   }
 } = ReactNative;
+
+var WebView = require('react-native-webview');
 
 var RCT_WEBVIEWBRIDGE_REF = 'webviewbridge';
 
