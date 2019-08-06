@@ -9,10 +9,9 @@ var {
   StyleSheet,
   Text,
   View,
-  WebView
 } = React;
 var createReactClass = require('create-react-class');
-
+var WebView = require('react-native-webview')
 var WebViewBridge = require('react-native-webview-bridge');
 
 const injectScript = `
